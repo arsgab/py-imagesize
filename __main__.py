@@ -8,5 +8,5 @@ if __name__ == '__main__':
         stderr.write('Directory path not passed')
         exit()
 
-    _, directory = argv
+    _, directory, *_ = argv
     set_dimensions_for_filenames(directory)
